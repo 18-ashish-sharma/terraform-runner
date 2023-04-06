@@ -1,0 +1,50 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+*.tfplan
+crash.log
+tf.state
+
+# Terragrunt
+.terragrunt-cache
+*.svg
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# OS X
+.history
+.DS_Store
+
+# IntelliJ
+.idea_modules
+*.iml
+*.iws
+*.ipr
+.idea
+build/
+*/build/
+out/
+
+# VSCode
+.vscode/
+
+# Old ones.
+*.swp
+*.key
+*.pem
+*.cer
+*.tmp
+*.p7b
+*.pfx
+*.der
+*.credentials
+.gitsecret/keys/random_seed
+*/iam_cert/*
+*.log
+
+.terraform.lock.hcl
+terragrunt-debug.tfvars.json
